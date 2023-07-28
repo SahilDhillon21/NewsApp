@@ -1,13 +1,19 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 import React, { Component } from 'react'
+import News from './components/News';
 
 export default class App extends Component {
   title = 'Sahil'
   render() {
     return (
       <div>
-        <h3>Hello my first cbc, by <strong>{this.title}</strong></h3>
+        
+        <Navbar/>
+
+        <News/>
+
       </div>
     )
   }
